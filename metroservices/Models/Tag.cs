@@ -11,8 +11,8 @@ namespace metroservices.Models
     {
         public int Id { get; set; }
         public string Comments { get; set; }
-        public decimal Lat { get; set; }
-        public decimal Lng { get; set; }
+        public Double Lat { get; set; }
+        public Double Lng { get; set; }
         public DateTime CreateDate { get; set; }
         public int UserId{get;set;}
     }

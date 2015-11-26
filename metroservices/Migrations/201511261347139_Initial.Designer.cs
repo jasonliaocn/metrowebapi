@@ -13,7 +13,7 @@ namespace metroservices.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201511261317439_Initial"; }
+            get { return "201511261347139_Initial"; }
         }
         
         string IMigrationMetadata.Source

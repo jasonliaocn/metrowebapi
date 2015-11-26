@@ -13,8 +13,8 @@ namespace metroservices.Migrations
                     {
                         Id = c.Int(nullable: false, identity: true),
                         Comments = c.String(),
-                        Lat = c.Decimal(nullable: false, precision: 18, scale: 2),
-                        Lng = c.Decimal(nullable: false, precision: 18, scale: 2),
+                        Lat = c.Double(nullable: false),
+                        Lng = c.Double(nullable: false),
                         CreateDate = c.DateTime(nullable: false),
                         UserId = c.Int(nullable: false),
                     })

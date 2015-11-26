@@ -19,7 +19,7 @@ namespace metroservices.Migrations
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
             //  to avoid creating duplicate seed data. E.g.
             //
-            context.Tags.Add(new Models.Tag { Comments = "this is for testing", CreateDate=DateTime.Now,UserId=1,Lat=100,Lng=100 });
+            context.Tags.Add(new Models.Tag { Comments = "this is for testing", CreateDate = DateTime.Now, UserId = 1, Lat = 31.546941, Lng = 120.331878 });
             //
         }
     }
